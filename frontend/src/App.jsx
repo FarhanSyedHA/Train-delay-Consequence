@@ -240,7 +240,7 @@ export default function App() {
 
       </main>
       <footer className="border-t border-[#27272a] bg-[#18181b] px-6 py-4 text-center text-xs text-[#a1a1aa]">
-        © Copyright Farhan 2025
+        © Copyright Farhan 2026
       </footer>
     </div>
   );
