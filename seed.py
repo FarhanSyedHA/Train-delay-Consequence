@@ -1,9 +1,9 @@
+#run  to populate data in the database.
 import os
 import sys
 from dotenv import load_dotenv
 from neo4j import GraphDatabase, exceptions
 
-# Load environment variables
 load_dotenv()
 
 URI = os.getenv("COGNODB_URI")

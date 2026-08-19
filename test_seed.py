@@ -1,6 +1,5 @@
-from seed import get_driver
-
 # this file is to test sucessful population of congodb with nodes and relations and test if opencypher can traverse operational dependency chains. 
+from seed import get_driver
 
 # Multi-hop cascade query: Delay TR_22436 (Vande Bharat NDLS-LKO) and trace down to TR_12418 (Prayagraj Superfast)
 CASCADE_QUERY = """
