@@ -1,3 +1,4 @@
+# format of data at different points of the applicaiton
 from typing import List, Optional
 from pydantic import BaseModel, Field
 

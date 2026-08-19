@@ -1,3 +1,5 @@
+# all apis with queries, if applicaiton would have been of bigger scale we can seperate routes with buisness logic.
+
 from fastapi import APIRouter, HTTPException, status
 from models import (
     DelaySimulationRequest,
