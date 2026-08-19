@@ -7,10 +7,10 @@ from routes import router
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    # Initialize connection pool on startup
+
     DatabaseConnection.get_driver()
     yield
-    # Safely close connection pool on shutdown
+
     DatabaseConnection.close()
 
 

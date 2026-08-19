@@ -1,2 +1,24 @@
 .env
 __pycache__
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Testing
+.pytest_cache/
+
+# Local DB / runtime
+*.sqlite3
+*.db
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
