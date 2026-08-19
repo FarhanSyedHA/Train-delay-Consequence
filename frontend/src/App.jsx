@@ -72,7 +72,7 @@ export default function App() {
         </div>
         <div className="flex items-center gap-2 text-xs text-emerald-400 bg-emerald-500/10 px-3 py-1.5 rounded-full border border-emerald-500/20">
           <ShieldCheck className="w-4 h-4" />
-          <span>CognoDB Live</span>
+          <span>CognoDB Works</span>
         </div>
       </header>
 
@@ -130,7 +130,7 @@ export default function App() {
                 <button
                   type="submit"
                   disabled={loading}
-                  className="flex-1 bg-green-600 hover:bg-indigo-500 disabled:opacity-50 text-white text-sm font-medium py-2.5 px-4 rounded-lg flex items-center justify-center gap-2 shadow-lg shadow-indigo-600/20 transition"
+                  className="flex-1 bg-green-600 hover:bg-green-500 disabled:opacity-50 text-white text-sm font-medium py-2.5 px-4 rounded-lg flex items-center justify-center gap-2 shadow-lg shadow-indigo-600/20 transition"
                 >
                   <Play className="w-4 h-4" />
                   {loading ? "Simulating..." : "Simulate Delay"}
