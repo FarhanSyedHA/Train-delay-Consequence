@@ -60,7 +60,6 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-black text-slate-100 flex flex-col">
-      {/* Header */}
       <header className="border-b border-slate-800 bg-gray-950/50 backdrop-blur px-6 py-4 flex items-center justify-between sticky top-0 z-30">
         <div className="flex items-center gap-3">
           <div className="p-2 bg-green-700 rounded-lg text-white">
@@ -77,13 +76,13 @@ export default function App() {
         </div>
       </header>
 
-      {/* Main Container */}
+      {/* Main Container  can be moved to other component*/}
       <main className="flex-1 p-6 max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-6">
         
         {/* Left Column: Controls & Impact Chains */}
         <div className="lg:col-span-4 space-y-6">
           {/* Simulator Controls Card */}
-          <div className="bg-grey-950 border border-slate-800 p-5 rounded-2xl shadow-sm">
+          <div className="bg-neutral-950 border border-slate-800 p-5 rounded-2xl shadow-sm">
             <h2 className="text-sm font-semibold uppercase tracking-wider text-slate-400 mb-4">
               Inject Delay Incident
             </h2>
@@ -151,13 +150,13 @@ export default function App() {
 
           {/* Multi-Hop Traversal Chains */}
           {simulationResult && (
-            <div className="bg-gray-950 border border-slate-800 p-5 rounded-2xl">
+            <div className="bg-neutral-950 border border-slate-800 p-5 rounded-2xl">
               <h2 className="text-sm font-semibold uppercase tracking-wider text-slate-400 mb-3">
                 Dependency Propagation Paths
               </h2>
               <div className="space-y-3">
                 {simulationResult.impact_chains.map((chain, idx) => (
-                  <div key={idx} className="bg-slate-950 p-3 rounded-lg border border-slate-800/80">
+                  <div key={idx} className="bg-neutral-950 p-3 rounded-lg border border-slate-800/80">
                     <p className="text-xs text-slate-400 mb-2 font-mono">Chain #{idx + 1}</p>
                     <div className="flex flex-wrap items-center gap-2 text-xs">
                       {chain.map((trainName, tIdx) => (
@@ -200,7 +199,7 @@ export default function App() {
 
           {/* Broken Transfers Table */}
           {simulationResult && (
-            <div className="bg-gray-950 border border-slate-800 rounded-2xl p-5 overflow-hidden">
+            <div className="bg-neutral-950 border border-slate-800 rounded-2xl p-5 overflow-hidden">
               <h2 className="text-sm font-semibold uppercase tracking-wider text-slate-400 mb-4">
                 Broken Feeder & Transfer Connections
               </h2>
