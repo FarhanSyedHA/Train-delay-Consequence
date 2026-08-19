@@ -3,7 +3,7 @@
 ## Live Application & Demo
 
 - **Live Demo App:** `https://train-delay-consequence.vercel.app/`
-- **Video Walkthrough (Loom):** `TDB`
+- **Video Walkthrough (Loom):** `https://www.loom.com/share/b4c4125e9311451fb4f38a822076ee56`
 
 ---
 
