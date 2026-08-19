@@ -66,8 +66,8 @@ export default function App() {
             <Train className="w-5 h-5" />
           </div>
           <div>
-            <h1 className="text-lg font-bold text-slate-100">Railway Delay Cascade Simulator</h1>
-            <p className="text-xs text-slate-400">Multi-Hop Graph Traversal Engine</p>
+            <h1 className="text-lg font-bold text-slate-100">Train Delay Consequences</h1>
+            <p className="text-xs text-slate-400">Know your next step if a train is delayed.</p>
           </div>
         </div>
         <div className="flex items-center gap-2 text-xs text-emerald-400 bg-emerald-500/10 px-3 py-1.5 rounded-full border border-emerald-500/20">
